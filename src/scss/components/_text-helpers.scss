@@ -1,4 +1,5 @@
 .caption {
+  display: inline-block;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -21,4 +22,12 @@
   font-size: 18px;
   line-height: 30px;
   color: $dove-gray;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: capitalize;
 }

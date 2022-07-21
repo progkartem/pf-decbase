@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   z-index: 1;
-  padding: 105px 0 120px;
+  padding: $section-offset;
   background-color: $white;
 
   &__content {

@@ -1,0 +1,70 @@
+.services {
+  padding: $section-offset;
+
+  .head-section {
+    margin-bottom: 56px;
+  }
+}
+
+.services-slider {
+  position: relative;
+
+  &__item {
+    flex-shrink: 0;
+    border-radius: 60px 0;
+    padding: 32px 31px 32px 24px;
+    width: fit-content;
+    box-shadow: 0 8px 20px rgba($black, 0.15);
+    color: $mine-shaft;
+    background-color: $white;
+    opacity: 0;
+    visibility: hidden;
+    transition: background-color 0.3s, opacity 0.3s, visibility 0.3s;
+
+    &--next {
+      color: $white;
+      background-color: $eunry;
+
+      .services-slider__icon {
+        fill: $white;
+      }
+
+      .services-slider__text {
+        color: inherit;
+      }
+    }
+
+    &--active,
+    &--next,
+    &--next + & {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  &__icon {
+    margin-right: 16px;
+    width: 40px;
+    height: 40px;
+    fill: $mine-shaft;
+    transform: translateY(32px);
+    transition: fill 0.3s;
+  }
+
+  &__info {
+    max-width: 312px;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    transition: color 0.3s;
+  }
+
+  &__text {
+    transition: color 0.3s;
+  }
+}

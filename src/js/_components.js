@@ -1,1 +1,1 @@
-console.log('components');
+import servicesSlider from "./components/servicesSlider";
