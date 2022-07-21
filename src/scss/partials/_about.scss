@@ -1,0 +1,23 @@
+.about {
+  position: relative;
+  z-index: 1;
+  background-color: $white;
+
+  &__image {
+    @include image-set("../images/about-img");
+
+    margin-right: 48px;
+    border-radius: 140px 0;
+    width: 100%;
+    height: 726px;
+    max-width: 681px;
+  }
+
+  &__info {
+    max-width: 544px;
+  }
+
+  &__text {
+    margin-bottom: 24px;
+  }
+}
