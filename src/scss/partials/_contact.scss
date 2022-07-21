@@ -1,0 +1,46 @@
+.contact {
+  &__title {
+    position: relative;
+    margin-bottom: 65px;
+    text-transform: uppercase;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -16px;
+      margin: 0 auto;
+      width: 461px;
+      height: 1px;
+      background-color: $silver;
+    }
+  }
+
+  &__text {
+    margin: 0 auto 24px;
+    max-width: 646px;
+  }
+
+  &__form {
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__label {
+    display: inline-block;
+    margin-right: 16px;
+    width: 100%;
+    max-width: 592px;
+  }
+
+  &__input {
+    border-radius: 20px 0;
+    padding: 9px 24px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    background-color: $gallery;
+  }
+}
