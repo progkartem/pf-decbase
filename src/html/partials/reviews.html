@@ -1,0 +1,25 @@
+<section class="reviews s-offset">
+  <div class="container">
+    @include('../components/head-section.html', { "caption": "Testimonials",
+    "title": "Client says about us" })
+    <div class="reviews__slider reviews-slider">
+      @include("../components/slider-btns.html")
+      <ul class="reviews-slider__list list-reset flex">
+        @include('../components/reviews-slide.html', {
+          "imgPath": "./images/reviews-1",
+          "imgType": "jpg",
+          "name": "louis Saville",
+          "pos": "CEO at Google inc",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        })
+        @include('../components/reviews-slide.html', {
+          "imgPath": "./images/reviews-2",
+          "imgType": "jpg",
+          "name": "Rekha Varadwaz",
+          "pos": "Manager at Nike inc",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        })
+      </ul>
+    </div>
+  </div>
+</section>

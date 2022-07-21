@@ -1,0 +1,21 @@
+<li class="reviews-slider__item flex">
+  <div class="reviews-slider__avatar">
+    <picture>
+      <source srcset="@imgPath.avif" type="image/avif" />
+      <source srcset="@imgPath.webp" type="image/webp" />
+      <img loading="lazy" src="@imgPath.@imgType" alt="Avatar" />
+    </picture>
+  </div>
+  <div class="reviews-slider__info">
+    <div class="reviews-slider__head">
+      <span class="reviews-slider__name">@name</span>
+      <span class="reviews-slider__pos">
+        <span> /</span>
+        @pos
+      </span>
+    </div>
+    <p class="reviews-slider__text text">
+      @text
+    </p>
+  </div>
+</li>
