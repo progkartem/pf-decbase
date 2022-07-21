@@ -1,4 +1,6 @@
 .img-border {
+  @include bg-cover;
+
   position: relative;
 
   &::before {
