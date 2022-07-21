@@ -1,3 +1,62 @@
 .footer {
+  padding-bottom: 16px;
+  background-color: $alabaster;
 
+  .logo {
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+
+  &__info {
+    max-width: 350px;
+  }
+
+  &__cols {
+    margin-right: 52px;
+    margin-left: auto;
+  }
+
+  &__col {
+    max-width: 200px;
+
+    &:not(:last-child) {
+      margin-right: 48px;
+    }
+  }
+
+  &__caption {
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: $dove-gray;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $viridian;
+    }
+  }
+
+  &__copy {
+    margin-top: 60px;
+    border-top: 1px solid $silver;
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: $dove-gray;
+  }
 }
