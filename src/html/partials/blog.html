@@ -1,0 +1,52 @@
+<section class="blog s-offset">
+  <div class="container">
+    @include('../components/head-section.html', { "caption": "LATEST NEWS",
+    "title": "From our blog" })
+    <ul class="blog__list list-reset flex flex--j-space">
+      <li class="blog__item centered">
+        <div class="blog__picture img-border">
+          <picture>
+            <source srcset="./images/blog-1.avif" type="image/avif" />
+            <source srcset="./images/blog-1.webp" type="image/webp" />
+            <img
+              class="blog__image"
+              loading="lazy"
+              src="./images/blog-1.jpg"
+              alt="mirror"
+            />
+          </picture>
+        </div>
+        <h3 class="blog__title">2020 Interior design trends</h3>
+        <p class="blog__text text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod incididunt ut labore et dolore magna aliqua.
+        </p>
+        <button class="btn btn--md btn-reset" type="button">
+          Continue reading
+        </button>
+      </li>
+      <li class="blog__item centered">
+        <div class="blog__picture img-border">
+          <picture>
+            <source srcset="./images/blog-2.avif" type="image/avif" />
+            <source srcset="./images/blog-2.webp" type="image/webp" />
+            <img
+              class="blog__image"
+              loading="lazy"
+              src="./images/blog-2.jpg"
+              alt="mirror"
+            />
+          </picture>
+        </div>
+        <h3 class="blog__title">28 notable product at aRC interior Design</h3>
+        <p class="blog__text text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod incididunt ut labore et dolore magna aliqua.
+        </p>
+        <button class="btn btn--md btn-reset" type="button">
+          Continue reading
+        </button>
+      </li>
+    </ul>
+  </div>
+</section>
