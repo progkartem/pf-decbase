@@ -1,3 +1,31 @@
 .hero {
+  position: relative;
+  z-index: 1;
+  padding: 105px 0 120px;
+  background-color: $white;
 
+  &__content {
+    max-width: 603px;
+  }
+
+  &__caption {
+    margin-bottom: 16px;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    margin-bottom: 32px;
+  }
+
+  &__image {
+    @include image-set("../images/hero-img");
+
+    border-radius: 140px 0;
+    width: 100%;
+    height: 626px;
+    max-width: 717px;
+  }
 }
