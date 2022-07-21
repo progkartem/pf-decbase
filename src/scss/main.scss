@@ -4,9 +4,13 @@
 @import "fonts";
 @import "settings";
 
-// Components connect
+// Big Components connect
 @import "./components/header";
 @import "./components/footer";
+
+// Small Components connect
+@import "./components/nav";
+@import "./components/btn";
 
 // Partials connect
 @import "./partials/hero";

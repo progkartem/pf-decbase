@@ -1,0 +1,21 @@
+.nav {
+  margin-right: 56px;
+  margin-left: auto;
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+
+  &__link {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: color 0.3s;
+
+    &:hover {
+      color: $dove-gray;
+    }
+  }
+}
