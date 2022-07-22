@@ -168,3 +168,15 @@ a {
 .s-offset {
   padding: $section-offset;
 }
+
+.logo {
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}

@@ -42,5 +42,10 @@
     font-size: 18px;
     line-height: 25px;
     background-color: $gallery;
+    transition: box-shadow 0.3s;
+
+    &:focus {
+      box-shadow: inset 0 0 0 3px rgba($viridian, 0.5);
+    }
   }
 }
